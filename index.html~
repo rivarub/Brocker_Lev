@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="http://uk.allfont.net/allfont.css?fonts=agreverance-roman" rel="stylesheet" type="text/css" />
+		<link rel="shortcut icon" href="favicon.gif" type="image/gif">
+		<title>Незалежний страховий брокер ЛЕВ</title>
+		<meta charset="UTF-8">
+		<!-- лінк на bootstrap<link rel='stylesheet' href='/css/bootstrap.min.css' type='text/css' media='all'>-->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<!--script type="text/javascript" src="script/jquery-1.12.2.min.js"></script-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="script/jquery.maskedinput.js"></script>
+		<script type="text/javascript" src="script/js.js"></script>
+		<!--[if lt IE 9]>
+			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+	</head>
+	<body>
+		<!--PRELOADER-->
+		<!--div id="spinner"></div-->
+		<!--HEADER-->
+		<header class="header">
+			<div class="container">
+				<div class="block-logo">
+					<div id="logo">
+						<img src="images/Logo-3-anyme_1.gif" alt="List picture" width="120" height="">
+					</div>	
+				</div>
+				<div class="block-name">
+					<div class="name">		
+						<h1>брокер<span id="lev"> ЛЕВ</span></h1>
+						<h2><small>страховий & незалежний</small></h2>				
+					</div>
+				</div>
+				<div class="block-phone">	
+					<div id="phone">		
+						<span id="under">просто наберіть цей номер:</span></br><span id="number">+38 (067) 665 57 70</span>
+						<h2 id="mail">e-mail: info@broker-lev.com</h2>
+						<!--h2 class="name"><small>будьмо незалежними!</small></h2-->				
+					</div>
+				</div>		
+			</div>
+		</header>
+		<!--NAVIGATION-->
+		<nav class="page-navigation">
+			<div class="container">
+				<ul>
+					<li class="selected"><a href="index.html">головна</a></li>
+					<li><a href="oscpv.html">ОСЦПВ</a></li>
+					<li><a href="kasko.html">КАСКО</a></li>
+					<li><a href="green_card.html">зелена карта</a></li>
+					<li><a href="travel.html">travel</a></li>
+				</ul>
+			</div>
+		</nav>	
+		<!--MAIN-->
+		<div class="allcontent">	
+			<div class="aside">
+				<div class="aside-block">
+					<h4>Час роботи</h4>
+					<p>понеділок-четвер 10:00 - 18:00<br>п'ятниця 10:00 - 17:00<br>субота, неділя - вихідні</p>
+				</div>
+				<div class="aside-block">
+					<h4>Безкоштовна доставка</h4>
+					<ul>
+						<li>по місту Львів без обмежень</li>
+						<li>по Україні при оформленні договору від 1000 грн </li>
+					</ul>
+				</div>
+				<div class="aside-block">
+				<h4>Ще діє старий поліс?</h4>
+				<p>Заповніть цю форму і ми нагадаємо Вам, коли термін Вашого договору/полісу буде завершуватися</p>
+					<form action="#" class="reminder">
+						<p class="reminder">
+						Ваше ім'я<br>
+						<input type="text" name="name" required>
+						</p>
+						<p class="reminder">
+						Ваш телефон<br>
+						<input class="telephone" type="tel" name="phone" placeholder="+38(0__)___-__-__" required>
+						</p>
+						<p class="reminder">
+						Електронна скринька<br>
+						<input type="email" name="email" required>
+						</p>
+						<p class="reminder">
+						Вид страхування<br>
+						<select name="incurence">
+							<option value="ОСЦПВ">ОСЦПВ</option>
+							<option value="КАСКО">КАСКО</option>
+							<option value="Зелена Карта">Зелена Карта</option>
+							<option value="Travel">Travel</option>
+						</select>
+						</p>
+						<p class="reminder">
+						Дата завершення поточного договору страхування<span class="red-marker">*</span><br>
+						<input class="date-mask" type="date" name="date" value="" placeholder="дд/мм/рррр" required><br>
+						</p>
+						<p class="reminder">
+						Як Вам зручно отримувати інформацію?<br>
+						<input type="checkbox" name="method" value="дзвінок"> дзвінок<br>
+						<input type="checkbox" name="method" value="СМС"> СМС<br>
+						<input type="checkbox" name="method" value="електронний лист"> електронний лист
+						</p>
+						<p class="reminder">
+						<p id="form">
+						<input type="submit" value="Нагадайте мені" required>
+						<img id="lion" src="images/Lion icon_0.png" alt="lion" width="55px" height="">
+						</p>
+					</form>
+				</div>	
+			</div>
+			<div class="main">						
+				<h2 class="collection-title">Наші пропозиції - <small><a class="info" href="info.html"> дізнайтесь більше!</a></small></h2>
+				<div class="collections">
+					<div class="tableContainer">
+						<div class="tableRow">
+							<div class="collection-item-outer">
+								<div class="collection-item">
+									<a class="changeimage" href="oscpv.html"><div class="fader"><img class="swap1" width="305" height="261" src="images/oscpv.jpg" alt="іконка ОСЦПВ" style="position:absolute;"><img class="swap2"  width="305" height="261" src="images/oscpv_001.jpg" alt="іконка ОСЦПВ"></div></a>
+									<div class="collection-text">
+										<p>Покриває збитки, завдані вами учасникам ДТП. ОСЦПВ - обов'язковий вид страхування цивільної відповідальності власників автомобілів, який передбачає страховий захист майна та здоров'я постраждалих внаслідок ДТП.</p>
+										<button onclick="showText(this)">Показати більше...</button>
+									</div>
+								</div>
+							</div>					
+							<div class="collection-item-outer">
+								<div class="collection-item">
+									<a class="changeimage" href="kasko.html"><div class="fader"><img class="swap1" width="305" height="261" src="images/kasko.jpg" alt="іконка КАСКО" style="position:absolute;"><img class="swap2"  width="305" height="261" src="images/kasko_001.jpg" alt="іконка КАСКО"></div></a>
+									<div class="collection-text">	
+										<p>Покриває будь-який збиток, передбачений договором ДТП, викрадення та ін. Страхування КАСКО - це гарантія спокою власника транспортного засобу. КАСКО - це ваш захист в непередбачуваних ситуаціях.</p>
+										<button onclick="showText(this)">Показати більше...</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tableRow">
+							<div class="collection-item-outer">
+								<div class="collection-item">
+									<a class="changeimage" href="green_card.html"><div class="fader"><img class="swap1" width="305" height="261" src="images/ZelenaKarta_01.jpg" alt="іконка Зелена Карта" style="position:absolute;"><img class="swap2"  width="305" height="261" src="images/ZelenaKarta_001.jpg" alt="іконка Зелена Карта"></div></a>
+									<div class="collection-text">	
+										<p>Міжнародний поліс, який оформлюється при виїзді за межі України. Зелена Карта це обов’язкове міжнародне страхування автоцивільної відповідальності власників наземних транспортних засобів.</p>
+										<button onclick="showText(this)">Показати більше...</button>
+							   		</div>
+								</div>
+							</div>
+				 			<div class="collection-item-outer">
+								<div class="collection-item">
+									<a class="changeimage" href="travel.html"><div class="fader"><img class="swap1" width="305" height="261" src="images/Travel_01.jpg" alt="іконка Тревел" style="position:absolute;"><img class="swap2" width="305" height="261" src="images/Travel_001.jpg" alt="іконка Тревел"></div></a>
+									<div class="collection-text">
+										<p>Комплексні програми страхування осіб, що виїжджають за кордон. Страхування туристів - це обов'язковий вид страхування в більшості країн світу для громадян України, які здійснюють туди поїздку і одна з умов отримання візи.</p>
+										<button onclick="showText(this)">Показати більше...</button>
+									</div>
+								</div>
+							</div>
+						</div>	
+					</div>
+				</div>	
+				<!--div id="partners">
+					<h2 class="partners-title">Наші партнери<small> і друзі</small></h2>
+					<div id="partners-items">
+						<div class="partners-block">
+							<a href="#"><img src="images/ingo_.png" alt="ingo" width="" height="28"></a>
+						</div>
+						<div class="partners-block">
+							<a href="#"><img src="images/axa.png" alt="axa" width="56" height=""></a>
+						</div>
+						<div class="partners-block">
+							<a href="#"><img src="images/knyaja.jpg" alt="knyaja" width="" height="49"></a>
+						</div>
+						<div class="partners-block">
+							<a href="#"><img src="images/pzu.png" alt="pzu" width="56" height=""></a>
+						</div>
+						<div class="partners-block">
+							<a href="#"><img src="images/dominanta.jpg" alt="dominanta" width="" height="35"></a>
+						</div>	
+						<div class="partners-block">
+							<a href="#"><img src="images/illchevske.png" alt="illchevske" width="56" height=""></a>
+						</div>
+						<div class="partners-block">
+							<a href="#"><img src="images/uniqa.png" alt="uniqa" width="70" height=""></a>
+						</div>		
+						</div>
+					</div>
+				</div-->			
+				</div>	
+			</div>	
+			<!--ПАРТНЕРИ-->
+			<div class="footer-line-block">
+				<div class="container">
+					<h2 class="partners-title">Наші партнери</h2>
+					<div id="partners-items">
+						<div class="partners-block">
+							<a href="#"><img src="images/ingo_.png" alt="ingo" width="" height="28px"></a>
+						</div>
+						<div class="partners-block">
+							<a href="#"><img src="images/axa.png" alt="axa" width="56px" height=""></a>
+						</div>
+						<div class="partners-block">
+							<a href="#"><img src="images/knyaja.jpg" alt="knyaja" width="" height="49px"></a>
+						</div>
+						<div class="partners-block">
+							<a href="#"><img src="images/pzu.png" alt="pzu" width="56px" height=""></a>
+						</div>
+						<div class="partners-block">
+							<a href="#"><img src="images/dominanta.jpg" alt="dominanta" width="" height="35px"></a>
+						</div>	
+						<div class="partners-block">
+							<a href="#"><img src="images/illchevske.png" alt="illchevske" width="56px" height=""></a>
+						</div>
+						<div class="partners-block">
+							<a href="#"><img src="images/uniqa.png" alt="uniqa" width="70px" height=""></a>
+						</div>	
+						<div class="partners-block" id="partners-block-right">
+							<p>
+							Тут може бути Ваша реклама<br>Або інформаційне повідомлення! Може бути також банер</p>
+						</div>	
+					</div>
+				</div>	
+			</div>	
+			<!--ТЕСТ-БЛОК ПІД ПАРТНЕРАМИ-->	
+			<!--div class="allcontent">
+			<div class="aside">
+				<p>!вільний блок!</p>
+			</div>
+			<div class="main">
+				<div id="partners-items">
+					<div class="partners-block">
+						<a href="#"><img src="images/ingo_.png" alt="ingo" width="" height="28px"></a>
+					</div>
+					<div class="partners-block">
+						<a href="#"><img src="images/axa.png" alt="axa" width="56px" height=""></a>
+					</div>
+					<div class="partners-block">
+						<a href="#"><img src="images/knyaja.jpg" alt="knyaja" width="" height="49px"></a>
+					</div>
+					<div class="partners-block">
+						<a href="#"><img src="images/pzu.png" alt="pzu" width="56px" height=""></a>
+					</div>
+					<div class="partners-block">
+						<a href="#"><img src="images/dominanta.jpg" alt="dominanta" width="" height="35px"></a>
+					</div>	
+					<div class="partners-block">
+						<a href="#"><img src="images/illchevske.png" alt="illchevske" width="56px" height=""></a>
+					</div>
+					<div class="partners-block">
+						<a href="#"><img src="images/uniqa.png" alt="uniqa" width="70px" height=""></a>
+					</div>		
+				</div>
+			</div-->
+		</div>
+		<!--КНОПКИ-->
+		<div class="left-border">
+			<a href="https://www.facebook.com/iib.lion?fref=ts" title="Наша сторінка Facebook"><img src="images/social_facebook_box_blue.png" alt="Facebook" width="50px"/></a>
+			<a href="https://www.instagram.com/brokerlion/" title="Наша сторінка Instagram"><img src="images/Instagram-icon.png" alt="Instagram" width="50px" /></a>
+			<!--a href="#" title="Наша сторінка Twitter"><img src="images/social_twitter_box_blue.png" alt="Twitter" width="50px" /></a-->
+			<!--a href="http://www.skype.com/uk/broker.LEV" title="Наша сторінка Skype"><img src="images/im-skype.png" alt="Skype" width="50px" /></a-->
+			<div class="skype"><script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
+				<div id="SkypeButton_Call_broker.LEV_1">
+				 <script type="text/javascript">
+					 Skype.ui({
+					 "name": "chat",
+					 "element": "SkypeButton_Call_broker.LEV_1",
+					 "participants": ["broker.LEV"],
+					 "imageSize": 32
+					 });
+				 </script>
+				</div>
+			</div>
+		</div>	
+		<div class="right-border">
+			<img id="click" src="images/phone-icon.png" title="Замовити дзвінок" alt="Замовити дзвінок" width="50px"/>
+		</div>
+		<div class="right-border">	
+			<div class="invisible">
+				<form action="#" class="reminder">
+					<h4><small>Замовити дзвінок</small><button class="close" title="Сховати"><i class="fa fa-times"></i></button></h4>
+					<p class="reminder">
+					Ваше ім'я<br>
+						<input type="text" name="name" required>
+					</p>
+					<p class="reminder">
+					Ваш телефон<span class="red-marker">*</span><br>
+						<input class="telephone" type="tel" name="phone" placeholder="+38(0__)___-__-__" required>
+					</p>
+					<p id="form">
+						<input type="submit" value="Чекаю на дзвінок!" required>
+						<img id="lion" src="images/Lion icon.jpg" alt="lion" width="55px" height="">
+					</p>
+				</form>
+			</div>		
+		</div>
+		<!--FOOTER-->
+		<footer class="footer">
+			<div class="container">
+				<p>Copiright @ Example.com 2016</p>
+			</div>
+		</footer>					
+	</body>
+</html>

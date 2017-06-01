@@ -1,0 +1,54 @@
+﻿<!--Частка html коду для версії зі слоганом над номером телефону-->
+<div class="block-name">
+					<div class="name">		
+						<img src="images/Name_C_1.jpg" alt="List picture" width="100%" height="">	
+						<!--h1>брокер<span id="lev"> ЛЕВ</span></h1>
+						<h2><small>страховий & незалежний</small></h2-->	
+					</div>
+				</div>
+				<div class="block-phone">	
+					<div id="slogan">Будьмо незалежними!</div>
+					<div id="phone">		
+						<!--span id="under">просто наберіть цей номер:</span--></br><span id="number">+38 (067) 665 57 70</span>
+						<p id="mail">e-mail: info@broker-lev.com</p>
+						<!--h2 class="name"><small>будьмо незалежними!</small></h2-->				
+					</div>
+				</div>		
+
+/*Частка css коду для варіанта зі слоганом над номером телефону*/
+
+#slogan {
+	color: white;
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 1.5em;
+	letter-spacing: 0.07em;
+	margin-top: -1px;
+}
+#phone {
+	text-align: center;
+	margin-right: 0px; 
+	margin-left: 0px;
+	margin: -4px 2px 0px 33px;
+}
+#number {
+	text-align: center;
+	color: orange;
+	font-family: 'Comfortaa', sans-serif;
+	font-size: 19pt;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+ #under, #mail {
+	color: white;
+	font-size: small;
+}
+#under {
+	font-family: Verdana;
+	letter-spacing: 1px;
+}
+#mail {
+	font-family: "Open Sans";
+    letter-spacing: 2px;
+    margin-top: 1px;
+    text-align: center;
+}
