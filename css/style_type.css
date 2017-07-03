@@ -120,16 +120,18 @@ p {
 }
 .page-navigation li {
 	float: left;
-	width: 130px;
+/*	width: 130px;*/
 }
 .page-navigation a {
 	text-transform: uppercase;
 	display: block;
 	color: white;
-	line-height: 1.9em;
+/*	line-height: 1.85em;*/
+        line-height: 30px;
 	font-size: 100%;
 	font-weight: bold;
 	text-align: center;
+        padding: 0 30px;
 }
 .page-navigation li a:hover {
 	color: white;
