@@ -218,7 +218,10 @@ div.globe img {
 }
 div.society {
 	float: left;
-	margin-left: 21px;
+	margin-left: 35px;
+}
+div.society a {
+    padding: 0 5px;
 }
 
 /*ALLCONTENT*/
